@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Futebol.css">
+    <title>Document</title>
+   
+   <style>
+      #div_relogio{
+       width: 400px;
+       background-color: black;
+       color: red;
+       font-size: 40px;
+       margin: 0 auto;
+       text-align: center;
+
+      }
+</style>
+</head>
+<body>
+
+   <input type="checkbox" id="chec">
+    <label for="chec">
+<img id="menu" src="menu.jpg" alt="">
+    </label>
+    <nav>
+<ul>
+ <li><a href="Goiás News.html">HOME</a></li>
+ <li><a href="https://pt.wikipedia.org/wiki/Hist%C3%B3ria_de_Goi%C3%A1s#:~:text=A%20hist%C3%B3ria%20de%20Goi%C3%A1s%20se%20inicia%20no%20fim,foram%20os%20principais%20respons%C3%A1veis%20pela%20explora%C3%A7%C3%A3o%20do%20centro-oeste.">HISTORIÁ DE GOIÁS</a></li>
+ <li><a href="https://www.tripadvisor.com.br/Attractions-g303323-Activities-State_of_Goias.html">ONDE IR EM GOIÁS?</a></li>
+ <li><a href="https://www.goias.gov.br/index.php/conheca-goias/economia#:~:text=Uma%20grande%20diversidade%20de%20segmentos%20comp%C3%B5e%20a%20economia,territ%C3%B3rio%20nacional%20e%20%C3%A0%20explora%C3%A7%C3%A3o%20de%20algumas%20mat%C3%A9rias-primas.">ECONOMIA DO ESTADO</a></li>
+ <li><a href="Futebol.html">FUTEBOL</a></li>
+
+
+</ul>
+    </nav>
+   <h1>
+       <img src="logo-goias-novo-1536.png" alt="">
+   </h1> 
+
+   <h2>
+Goiás Esporte Clube
+   </h2>
+   <br>
+   <br>
+   <br>
+   <br>
+   <h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HJoTwpqzTl4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </h3>
+   <br>
+   <h4>
+Veja os melhores momentos de Goiás 1 x 0 Vasco, pela Serie B do Campeonato Brasileiro 2021.
+   </h4>
+   <h5>
+   <a href="https://ge.globo.com/go/futebol/times/goias/">  Quer mais noticias sobre a equipe do Goiás, clique aqui e saiba</a>
+   </h5>
+   <br>
+   <br>
+   <br>
+   <h6><img src="logo-atletico-goianiense-1024.png" alt=""></h6>
+   <h7>Atlético Clube Goianiense</h7>
+   <br>
+   <br>
+   <br>
+   <br>
+   <h8>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/juBulzczzgU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </h8>
+   <br>
+   <br>
+   <h9>
+      Veja os melhores momentos de Atletico Goianiense 0 x 1 Red Bull Bragantino, pela Serie A do Campeonato Brasileiro 2021.
+   </h9>  
+   <br> 
+   <br>
+   <br>
+   <h10><a href="https://ge.globo.com/go/futebol/times/atletico-go/">  Quer mais noticias sobre a equipe do Atletico Goianiense, clique aqui e saiba</a></h10>
+   <br>
+   <br>
+   <br>
+   <br>
+
+
+   <h11>
+      <img src="OIP.jpg" alt="">
+  </h11> 
+
+  <h12>
+   Vila Nova Futebol Clube
+  </h12>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h13>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/Y665KJ7AzC8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </h13>
+  <br>
+  <h14>
+Veja os melhores momentos de Vila Nova 2 x 1 Operário, pela Serie B do Campeonato Brasileiro 2021.
+  </h14>
+  <br>
+  <br>
+  <br>
+  <h15>
+  <a href="https://ge.globo.com/go/futebol/times/vila-nova/">  Quer mais noticias sobre a equipe do Vila Nova, clique aqui e saiba</a>
+  </h15>
+</body>
+
+<script>
+
+   function Relogio(){
+       var data = new Date();
+       var hr = data.getHours();
+       var min = data.getMinutes();
+       var s = data.getSeconds();
+       
+   
+   
+       var tempo_total = hr + ":" + min + ":" + s;
+       var tempo = window.document.getElementById('div_relogio');
+       tempo.innerHTML = tempo_total;
+   }
+   setInterval(Relogio,500)
+   </script>
+       
+       
+       
+</html>
