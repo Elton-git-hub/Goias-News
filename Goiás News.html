@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goiás News</title>
+   <link rel="icon" href="../Página principal/Captura de Tela (309).png">
+   <link rel="stylesheet" href="Goiás News.css">
+   <style>
+       #div_relogio{
+        width: 400px;
+        background-color: black;
+        color: red;
+        font-size: 40px;
+        margin: 0 auto;
+        text-align: center;
+
+       }
+</style>
+</head>
+<body>
+<div id="div_relogio">
+
+</div>
+
+
+
+
+
+
+
+
+
+
+    <input type="checkbox" id="chec">
+    <label for="chec">
+<img id="menu" src="menu.jpg" alt="">
+    </label>
+    <nav>
+<ul>
+    <li><a href="Goiás News.html">HOME</a></li>
+ <li><a href="https://pt.wikipedia.org/wiki/Hist%C3%B3ria_de_Goi%C3%A1s#:~:text=A%20hist%C3%B3ria%20de%20Goi%C3%A1s%20se%20inicia%20no%20fim,foram%20os%20principais%20respons%C3%A1veis%20pela%20explora%C3%A7%C3%A3o%20do%20centro-oeste.">HISTORIÁ DE GOIÁS</a></li>
+ <li><a href="https://www.tripadvisor.com.br/Attractions-g303323-Activities-State_of_Goias.html">ONDE IR EM GOIÁS?</a></li>
+ <li><a href="https://www.goias.gov.br/index.php/conheca-goias/economia#:~:text=Uma%20grande%20diversidade%20de%20segmentos%20comp%C3%B5e%20a%20economia,territ%C3%B3rio%20nacional%20e%20%C3%A0%20explora%C3%A7%C3%A3o%20de%20algumas%20mat%C3%A9rias-primas.">ECONOMIA DO ESTADO</a></li>
+ <li><a href="Futebol.html">FUTEBOL</a></li>
+ <h1></h1>
+
+</ul>
+    </nav>
+    <H1> <img src="../Página principal/Captura de Tela (309).png" alt=""> </H1>
+
+        <h6> <img src="" alt=""></h6>
+        
+     <h9><img src="OIP.jpg" alt=""></h9>
+    <h10>O serial killer Lázaro Barbosa é morto em troca de tiros com policiais das forças armadas do estado de Goiás</h10>
+    <h11><a href="https://www.otempo.com.br/brasil/lazaro-barbosa-o-serial-killer-do-df-foi-baleado-e-morto-em-troca-de-tiros-1.2505204"><button>SAIBA MAIS</button></a></h11>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h15><img src="frio-jatai.jpg" alt=""></h15>
+    <br>
+    <br>
+        <h20> Esfriou aí? Goiás registra 1ºC e bate recorde de frio dos últimos três anos,diz Cimehgo</h20>
+        <h25><a href="https://www.emaisgoias.com.br/frio-bate-recorde-em-goias-e-temperaturas-chegam-a-1oc/"><button>SAIBA MAIS</button></a></h25>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h26><img src="Captura de Tela (311).png" alt=""></h26>
+        <br>
+        <h31>Dados e estatísticas da Covid-19 em Goiás</h31>
+        <h36><a href="https://covidgoias.ufg.br/#/map"><button>SAIBA MAIS</button></a></h36>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h37><img src="2017-04-03-photo-00000004.jpg" alt=""></h37>
+        <br>
+        <h38>Marido é condenado a 18 anos de prisão por matar dentista e simular suicídio</h38>
+        <h39><a href="https://g1.globo.com/go/goias/noticia/2021/06/30/marido-e-condenado-a-18-anos-de-prisao-por-matar-dentista-e-simular-suicidio-em-luziania.ghtml"><button>SAIBA MAIS</button></a></h39>
+</body>
+
+<script>
+
+function Relogio(){
+    var data = new Date();
+    var hr = data.getHours();
+    var min = data.getMinutes();
+    var s = data.getSeconds();
+    
+
+
+    var tempo_total = hr + ":" + min + ":" + s;
+    var tempo = window.document.getElementById('div_relogio');
+    tempo.innerHTML = tempo_total;
+}
+setInterval(Relogio,500)
+</script>
+</html>
+    
+    
+    
